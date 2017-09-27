@@ -1,0 +1,586 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/*
+**************************about body*****************/
+p,h1,h2,h3,h4,h5,a{
+	font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5{
+	color: #373535;
+}
+
+body{
+	background-color: #ebebeb;
+}
+a{
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a{
+	background-color: #191919;
+	color: #52abdf;
+	border-bottom: 3px solid #52abdf;
+}
+
+.navbar-default .navbar-nav > .active > a:hover{
+	background-color: #191919;
+	color: #eaeaea;
+
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+
+.btn-primary{
+	background-color: #32a2e3;
+	border-radius: 0px;
+	margin-top: 25px;
+	border:none;
+	border-bottom: 2px solid #2b8ac1;
+
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+
+.btn-primary:hover {
+	background-color: #ffffff;
+	color: #32a2e3;
+	border: 1px solid #32a2e3;
+	
+}
+
+.big{
+	font-weight: bolder;
+}
+
+.dash{
+	border-bottom: 1px dashed #bdbdbd;
+	padding-bottom: 20px;
+}
+
+.bl{
+	border-left:1px solid #cdcdcd; 
+}
+
+.bb{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #cdcdcd;
+}
+
+@media (min-width:1200px){
+	.bl{
+		margin-left: -40px;
+		}
+}
+
+/*
+*************************about nav bar*******************/
+.navbar-default{
+	background-color: #191919;
+}
+
+.navbar-nav > li > .dropdown-menu{
+	background-color:  #191919;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+	background-color: #191919;
+	color: #4ea8dc;
+}
+
+.navbar-default .dropdown-menu > li > a{
+	background-color: #191919; 
+	color: #eaeaea;
+}
+
+
+.navbar-default .dropdown-menu > li > a:hover{
+	color: #4ea8dc;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand{
+	color: #eaeaea;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-brand:hover{
+	color:#52abdf;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+
+}
+
+
+.navbar-collapse{ 
+	padding-right: 150px;
+}
+.icon{
+
+}
+.navbar-brand .fa{
+	font-size: 10px;
+	color: #52abdf;
+	margin-bottom: 10px;
+}
+/*
+***************************** about carouselle **************************/
+.carousel{
+	margin-top: -21px;
+}
+.carousel .fa{
+	padding-top: 260px;
+}
+
+.item .bla{
+	background-color: #2a2a2a;
+
+	text-align: left;
+
+	height: 47px;
+	width: 620px;
+		
+	margin-bottom: -1px;
+	margin-left: -65px;
+
+	padding-left: 4px;
+	padding-top: 5px;
+
+	-webkit-transform: rotate(0deg) skew(-20deg); 
+    transform: rotate(0deg) skew(-20deg); 
+}
+.item .blu{
+	background-color: #52abdf;
+
+	text-align: left;
+
+	height: 35px;
+	width: 445px;
+		
+	margin-bottom: 185px;
+	margin-left: -80px;
+
+	padding-left: 4px;
+	padding-top: 5px;
+
+	-webkit-transform: rotate(0deg) skew(-20deg); 
+    transform: rotate(0deg) skew(-20deg); 
+}
+
+/*
+*****container*******/
+.container{
+	
+}
+
+
+/*
+********reserve**********/
+.reserve{
+	background-color: #ffffff;
+	padding-top: 8px;
+	border:2px solid #e0e0e0;
+	margin-top: -20px;
+	position: relative;
+
+
+}
+
+
+.reserve label ,.reserve input{
+	display:block;
+}
+
+.men .form-control{
+	width: 60px;
+}
+
+
+.reserve .sp{
+	background-color: #f3f3f3;
+	border-right: 1px solid #e0e0e0;
+}
+
+
+@media (min-width: 1200px){
+	.men{
+		margin-left: -20px;
+	}
+	.reserve form .form-control {
+	width: 145px;
+	}
+}
+
+@media(max-width:750px ){
+	.reserve{
+		padding-bottom: 8px;
+	}
+	.reserve h4, .reserve p{
+		text-align: center;
+	}
+	.men {
+		display: inline-block;
+		}
+
+		.reserve button{
+			width: 100%;
+		}
+}
+
+
+/*
+********rooms******/
+.rooms img{
+	margin-top: 40px;
+}
+
+/*
+*******footer*****/
+footer a,footer i{
+color: #aeadad;
+}
+
+footer{
+	background-color: #ffffff;
+	height: 65px;
+	padding-top: 15px;
+	margin-top: 90px;
+}
+
+
+.shar i{
+	padding-right:5px; 
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+
+.social-links li.twitter a:hover {
+	color: #55acee;
+}
+.social-links li.skype a:hover {
+	color: #00aff0;
+}
+.social-links li.linkedin a:hover {
+	color: #0976b4;
+}
+.social-links li.googleplus a:hover {
+	color: #dd4b39;
+}
+.social-links li.youtube a:hover {
+	color: #b31217;
+}
+.social-links li.flickr a:hover {
+	color: #ff0084;
+}
+.social-links li.facebook a:hover {
+	color: #3b5998;
+}
+.social-links li.pinterest a:hover {
+	color: #cb2027;
+}
+
+/*
+$$$$$$$$ RESERVE1 $$$$$$$$$$$$$$$$$$ */
+
+/*
+********.head***********/
+.head{
+	margin-top: -20px;
+	border-bottom: 2px solid #acacac;
+	width: 100
+}
+
+.message{
+	position: relative;
+	background-color: #4fa8dc;
+	color: #ffffff;
+	text-align: right;
+	width: 328px;
+	height: 46px;
+	margin-top: -46px;
+	margin-left: -10px;
+	padding-top: 8px;
+	padding-right: 8px;
+
+
+	-webkit-transform: rotate(0deg) skew(-26deg); 
+    transform: rotate(0deg) skew(-26deg); 
+}
+
+/*
+*********step*******/
+.step{
+	border-bottom:2px solid #bdbdbd;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 180px;
+
+	background-image:radial-gradient(circle, #ffffff, #ebebeb);
+}
+
+.circle{
+	border:1px solid #aaabab;
+	border-radius: 30px;
+	width: 30px;
+	height:30px;
+	padding-left: 10px;
+	padding-top: 4px;
+}
+
+.circle , p,.circle-act,h5{
+	display: inline-block;
+}
+
+.step h5 ,.step p{
+	padding-right: 4px;
+	color: #aaabab;
+}
+
+/*
+***************.active circle**************/
+.circle-act p{
+	color: #ffffff;
+	font-weight: bold;
+}
+.circle-act h5{
+	color: #373535;
+	font-weight: bold;
+}
+.circle-act .circle{
+	background-color: #32a2e3;
+	border:1px solid #aaabab;
+	border-radius: 30px;
+	width: 30px;
+	height:30px;
+	padding-left: 10px;
+	padding-top: 4px;	
+}
+
+/*
+******title*****/
+.title{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	color: #373535;
+}
+.title p{
+	color: #868585;
+}
+
+@media (min-width: 1200px){
+	.title p{
+	width: 80%;
+}
+
+}
+/*
+******one button****/
+.one{
+	width: 30%;
+}
+.continuer{
+	padding-top: 15px;
+}
+.continuer button{
+	padding-top: 10px;
+}
+/*
+***pick-data***/
+.data .pick-data{
+	border-top:1px dashed #bdbdbd;
+	padding-top: 35px;
+}
+
+.slect-ch{
+	padding-top: 15px;
+	padding-bottom: 45px;
+	border-bottom:1px dashed #bdbdbd;
+}
+
+
+
+@media(min-width: 1200px){
+	.pick-data .form-group{
+	display: inline-block;
+
+}
+.data .pick-data .form-control{
+	width: 470px;
+
+}
+}
+
+/*
+$$$$$$$$$$$$$$$$$$$$$$$$$ resreve2$$$$$$$$$$$$$$$$$$$$*/
+.room{
+	background-color: #ffffff;
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.room li{
+	padding-left: 40px;
+	list-style: none;
+
+}
+.room ul{
+	border-bottom: 1px dashed #bdbdbd;
+	
+}
+.room h4{
+	padding-right: 10px;
+}
+.room input,.room h4{
+	display: inline-block;
+}
+.room .btn-danger,.tow .btn-danger{
+	background-color: #32a2e3;
+	border:none;
+	border-radius: 0px;
+}
+.room .btn-danger:hover,.tow .btn-danger:hover{
+	background-color: #078bca;
+}
+
+.room .btn-danger.active{
+	background-color: #d8d8d8;
+}
+
+.tow form{
+	padding-left: 30px;
+}
+.sc{
+	padding-bottom: 10px;
+}
+.tow select{
+	width: 60px;
+
+}
+#tow{
+	margin-top: 35px;
+	padding-left: 42px;
+	padding-bottom: 10px;
+}
+#tow .btn-danger{
+	width: 80%;
+}
+
+.pagination{
+	margin-left: 20%;
+}
+
+
+
+/*
+$$$$$$$$$$$$$$$$$$$$$ reservation3 $$$$$$$$$$$$$$$$$*/
+.perso{
+	border-top: 1px dashed #bdbdbd;
+	border-bottom: 1px dashed #bdbdbd;
+
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.mail{
+	padding-bottom: 40px;
+	border-bottom: 1px dashed #bdbdbd;
+}
+
+/*
+$$$$$$reservation4$$$$$$$$$$$$*/
+#thank{
+	background-color: #dce5ea;
+	color: #148bd1;
+	border:1px solid #a7c6de;
+
+	margin-top: 100px;
+}
+#thank h4{
+	margin-left: 24%;
+}
+.fini button{
+	margin-left: 37%;
+}
+
+.fini p{
+	color: #78797c;
+	margin-left: 37%;
+
+}
+
+/*
+££££££££££££££££££££££££  HOTEL  £££££££££££££££*/
+/*
+******** Vue d'ensemble ********/
+
+.about button{
+	margin-top: -15px;
+	width: 100%
+}
+.about i{
+	padding-left: 10px;
+	color: #b4b3b3;
+}
+
+/*
+************** location **********/
+iframe{
+	border:7px solid red;
+}
+/*
+******** service*****/
+.service{
+	padding-top: 20px;
+}
+.service h3{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.service p{
+	color: #868585;
+}
+.vous p{
+	text-align: center;
+}
+
+.service img{
+	padding-top: 20px;
+}
+@media (max-width:750px){
+	.service h4,.service p{
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+

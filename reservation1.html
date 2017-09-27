@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reservation 1</title>
+		<meta charset="UTF-8">
+	<!-- css bootstrap -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- css style -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- css datepiker -->
+		<link rel="stylesheet" type="text/css" href="css/foundation-datepicker.css">
+	<!-- css font -->
+		<link rel="stylesheet" type="text/css" href="font/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="row">
+  <nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="col-md-2"></div>
+      <a class="navbar-brand" href="#">
+        PARADICE HOTEL         
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+		<li><a href="./index.html">Hotel</a></li>
+        <li class="act"><a href="./reservation1.html">Reservation</a></li>
+        <li><a href="./présentation/service.html">Service</a></li>
+        <li><a href="./présentation/location.html">Emplacement</a></li>
+        <li><a href="./présentation/about.html">A propos</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->  
+</nav><!-- /.nav -->
+</div><!-- /.row -->
+<!-- /////////////////////////////////////////////.header////////////////////////////////// -->
+
+
+<!--**********************.head*************************-->
+<div class="row">
+	<div class="col-md-12">
+		<div class="head">
+			<img src="img/head.jpg" alt="..." class="img-responsive">
+			<div class="message">
+			<p>RESERVATION</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /////////////////////////////////////////////.head////////////////////////////////// -->
+
+
+<!--**********************.step*************************-->
+<div class="row">
+	<div class="container step">
+	<!--step 1-->
+	<div class="circle-act">
+		<div class="circle">
+			<p>1</p> 
+		</div>
+		<h5>Information de Base</h5>
+	</div>
+		
+
+	<!--step 2-->
+		<div class="circle">
+			<p>2</p> 
+		</div>
+		<h5>Sélectionner Chambre</h5>	
+
+	<!--step 3-->
+		<div class="circle">
+			<p>3</p> 
+		</div>
+		<h5>Saisie Information</h5>	
+
+	<!--step 4-->
+		<div class="circle">
+			<p>4</p> 
+		</div>
+		<h5>finis</h5>			
+
+	</div>
+</div>
+<!-- /////////////////////////////////////////////.step////////////////////////////////// -->
+
+
+<!--**********************.container*************************-->
+<div class="container data">
+	<div class="title">
+		<h3>Information de Base</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi </p>
+	</div><!--/.title-->
+
+	<div class="pick-data">
+	<div class="row">
+			<form>
+			<div class="col-md-6">
+				<div class="form-group">
+					<label>Date Entrée</label>
+					<input type="text" class="span2 form-control" value="" id="dpd1" placeholder="jj/mm/aaaa">                   
+				</div><!--/.form-group-->
+			</div>
+				
+			<div class="col-md-6">
+				<div class="form-group">
+					<label>Date Sortie</label>
+					<input type="text" class="span2 form-control" value="" id="dpd2" placeholder="jj/mm/aaaa">
+				</div><!--/.form-group-->
+			</div>	
+				
+			</form><!--/form-->
+		</div><!--/.col-->
+
+	</div>
+		
+
+
+<div class="row slect-ch">
+	<div class="col-md-3">
+      <label>Nombre de Chambres:</label>
+      <select class="form-control">
+      	<option value="" disabled selected hidden>nombre de chambre ...</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div><!--/.col-->
+
+    <div class="col-md-3">
+      <label>Nombre Adultes par Chambre:</label>
+      <select class="form-control">
+      	<option value="" disabled selected hidden>nombre d'adult...</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div><!--/.col-->
+
+    <div class="col-md-3">
+      <label>Enfants 0-5:</label>
+      <select class="form-control">
+      	<option value="" disabled selected hidden>nombre d'enfants 0-5...</option>
+      	<option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div><!--/.col-->
+
+    <div class="col-md-3">
+      <label>Enfants 6-12:</label>
+      <select class="form-control">
+      	<option value="" disabled selected hidden>nombre d'enfants 6-12...</option>
+      	<option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div><!--/.col-->
+
+    
+</div>
+	<div class="row continuer">
+	<div class="col-md-3 col-md-offset-1 col-xs-3 col-xs-offset-1"></div>
+      <a href="reservation2.html" type="button" class="btn btn-primary one" role="button">Continuer</a>
+    </div>	
+
+
+
+
+
+</div><!--/.container-->
+
+
+
+
+
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <i class="fa fa-copyright">2015 PARADICE HOTEL,ZYT.</i>
+      </div>
+      <div class="col-md-5 shar">
+        <ul class="social-links list-inline">
+          <li class="facebook"><a target="_blank" href="https://www.facebook.com"><i class="fa fa-facebook fa-2x">
+          </i></a></li>
+          <li class="twitter"><a target="_blank" href="https://twitter.com/HtmlcoderMe"><i class="fa fa-twitter fa-2x"></i></a></li>
+          <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus fa-2x"></i></a></li>
+          <li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype fa-2x"></i></a></li>
+          <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin fa-2x"></i></a></li>
+          <li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube fa-2x"></i></a></li>
+          <li class="flickr"><a target="_blank" href="http://www.flickr.com"><i class="fa fa-flickr fa-2x"></i></a></li>
+          <li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest fa-2x"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+</footer>
+
+
+
+<!-- text/javascript-->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/foundation-datepicker.min.js"></script>
+
+	<!-- text/javascript :js datepiker -->
+	<script type="text/javascript">
+	  // implementation of disabled form fields
+	  var nowTemp = new Date();
+	  var now = new Date(nowTemp.getFullYear(), nowTemp.getMonth(), nowTemp.getDate(), 0, 0, 0, 0);
+	  var checkin = $('#dpd1').fdatepicker({
+	    onRender: function (date) {
+	      return date.valueOf() < now.valueOf() ? 'disabled' : '';
+	    }
+	  }).on('changeDate', function (ev) {
+	    if (ev.date.valueOf() > checkout.date.valueOf()) {
+	      var newDate = new Date(ev.date)
+	      newDate.setDate(newDate.getDate() + 1);
+	      checkout.update(newDate);
+	    }
+	    checkin.hide();
+	    $('#dpd2')[0].focus();
+	  }).data('datepicker');
+	  var checkout = $('#dpd2').fdatepicker({
+	    onRender: function (date) {
+	      return date.valueOf() <= checkin.date.valueOf() ? 'disabled' : '';
+	    }
+	  }).on('changeDate', function (ev) {
+	    checkout.hide();
+	  }).data('datepicker');
+
+	  $('.fdatepicker').fdatepicker({
+	    format: 'dd/mm/yyyy',
+	    startDate: '-3d'
+	})
+	</script>
+</body>
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>index</title>
+    <meta charset="UTF-8">
+  <!-- css bootstrap -->
+	 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <!-- css style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- css datepiker -->
+    <link rel="stylesheet" type="text/css" href="css/foundation-datepicker.css">
+  <!-- css font -->
+    <link rel="stylesheet" type="text/css" href="font/css/font-awesome.min.css">
+</head>
+<body>
+<div class="row">
+  <nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="col-md-2"></div>
+      <a class="navbar-brand" href="#">
+        PARADICE HOTEL         
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="act"><a href="./index.html">Hotel</a></li>
+        <li><a href="./reservation1.html">Reservation</a></li>
+        <li><a href="./présentation/service.html">Service</a></li>
+        <li><a href="./présentation/location.html">Emplacement</a></li>
+        <li><a href="./présentation/about.html">A propos</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->  
+</nav><!-- /.nav -->
+</div><!-- /.row -->
+<!-- /////////////////////////////////////////////.header////////////////////////////////// -->
+
+
+<!-- ************************carousell****************************** -->
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/img.jpg" alt="...">
+      <div class="carousel-caption">
+        <p class="bla"> black Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <p class="blu"> blue Lorem ipsum dolor sit</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/img1.jpg" alt="...">
+      <div class="carousel-caption">
+        <p class="bla"> black Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <p class="blu"> blue Lorem ipsum dolor sit</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="fa fa-chevron-circle-left fa-3x visible-lg" aria-hidden="true"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="fa fa-chevron-circle-right fa-3x visible-lg" aria-hidden="true"></span>
+  </a>
+</div>
+ <!-- /////////////carousell///////// -->
+
+
+<!--********container*******-->
+<div class="container">
+
+<!--********reserve*******-->
+  <div class="row reserve">
+    <div class="col-md-2 sp">
+      <h4>Book a room </h4>
+      <p>Lorem ipsum dolor</p>
+    </div><!--/.col-->
+
+    <!--pour le datepiker-->
+    <div class="col-md-3">
+      <label>type of room</label>
+      <select class="form-control">
+        <option>selecte a type of room</option>
+        <option>Chambre type 2</option>
+        <option>Chambre type 3</option>
+        <option>Chambre type 4</option>
+        <option>Chambre type 5</option>
+      </select>
+    </div><!--/.col-->
+
+    <div class="col-md-4">
+      <form class="form-inline">
+        <div class="form-group">
+          <label>check-in date</label>
+          <input type="text" class="span2 form-control" value="" id="dpd1" placeholder="jj/mm/aaaa">
+        </div><!--/.form-group-->
+        <div class="form-group">
+          <label>check-out date</label>
+          <input type="text" class="span2 form-control" value="" id="dpd2" placeholder="jj/mm/aaaa">
+        </div><!--/.form-group-->
+      </form><!--/form-->
+    </div><!--/.col-->
+
+    <div class="col-md-1 col-sm-12 men">
+      <label>Adult</label>
+      <select class="form-control">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div><!--/.col-->
+
+    <div class="col-md-1 men">
+      <label>Enfant</label>
+      <select class="form-control">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div><!--/.col-->
+
+    <div class="col-md-1">
+      <button type="button" class="btn btn-primary" >Réserver</button>
+    </div>
+  </div><!--/.row-->
+ <!-- /////////////reserve///////// -->
+
+
+ <!--***************rooms************-->
+
+<div class="row rooms">
+  <div class="col-sm-12 col-md-4">
+    <img src="img/ch1.jpg"  class="img-responsive ch1">
+    <h4>Chambre Single 199$</h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.enim ad minim veniam.
+    </p>
+  </div><!--/.col-->
+
+  <div class="col-sm-12 col-md-4">
+    <img src="img/ch2.jpg"  class="img-responsive ch2">
+    <h4>Chambre Double 299$</h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.enim ad minim veniam.
+    </p>
+  </div><!--/.col-->
+
+  <div class="col-sm-12 col-md-4">
+    <img src="img/ch3.jpg"  class="img-responsive ch3">
+    <h4>Chambre Suite 399$</h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.enim ad minim veniam.
+    </p>
+  </div><!--/.col-->
+
+</div><!--/.row-->
+
+
+<p class="point" style="color: transparent;">.</p><br>
+<p class="point" style="color: transparent;">.</p><br>
+<p class="point" style="color: transparent;">.</p><br>
+<p class="point" style="color: transparent;">.</p><br>
+<p class="point" style="color: transparent;">.</p><br>
+<p class="point" style="color: transparent;">.</p><br>
+<p class="point" style="color: transparent;">.</p><br>
+<p class="point" style="color: transparent;">.</p><br>
+<p class="point" style="color: transparent;">.</p><br>
+<p class="point" style="color: transparent;">.</p><br>
+<p class="point" style="color: transparent;">.</p><br>
+<p class="point" style="color: transparent;">.</p><br>
+
+
+
+
+
+
+
+
+
+
+
+
+</div><!--/.container-->
+ <!-- /////////////container///////// -->
+
+
+ <!--***************footer************-->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <i class="fa fa-copyright">2015 PARADICE HOTEL,ZYT.</i>
+      </div>
+      <div class="col-md-5 shar">
+        <ul class="social-links list-inline">
+          <li class="facebook"><a target="_blank" href="https://www.facebook.com"><i class="fa fa-facebook fa-2x">
+          </i></a></li>
+          <li class="twitter"><a target="_blank" href="https://twitter.com"><i class="fa fa-twitter fa-2x"></i></a></li>
+          <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus fa-2x"></i></a></li>
+          <li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype fa-2x"></i></a></li>
+          <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin fa-2x"></i></a></li>
+          <li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube fa-2x"></i></a></li>
+          <li class="flickr"><a target="_blank" href="http://www.flickr.com"><i class="fa fa-flickr fa-2x"></i></a></li>
+          <li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest fa-2x"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+</footer>
+
+
+
+<!-- text/javascript-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/foundation-datepicker.min.js"></script>
+
+<!-- text/javascript :js datepiker -->
+<script type="text/javascript">
+  // implementation of disabled form fields
+  var nowTemp = new Date();
+  var now = new Date(nowTemp.getFullYear(), nowTemp.getMonth(), nowTemp.getDate(), 0, 0, 0, 0);
+  var checkin = $('#dpd1').fdatepicker({
+    onRender: function (date) {
+      return date.valueOf() < now.valueOf() ? 'disabled' : '';
+    }
+  }).on('changeDate', function (ev) {
+    if (ev.date.valueOf() > checkout.date.valueOf()) {
+      var newDate = new Date(ev.date)
+      newDate.setDate(newDate.getDate() + 1);
+      checkout.update(newDate);
+    }
+    checkin.hide();
+    $('#dpd2')[0].focus();
+  }).data('datepicker');
+  var checkout = $('#dpd2').fdatepicker({
+    onRender: function (date) {
+      return date.valueOf() <= checkin.date.valueOf() ? 'disabled' : '';
+    }
+  }).on('changeDate', function (ev) {
+    checkout.hide();
+  }).data('datepicker');
+
+  $('.fdatepicker').fdatepicker({
+    format: 'dd/mm/yyyy',
+    startDate: '-3d'
+})
+</script>
+
+</body>
+</html>
